@@ -1,0 +1,132 @@
+.catalog-title-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4vh 1vw ;
+}
+
+
+.catalog-title-map-content {
+    margin: 4vh 2vw;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    height: 32vh;
+    width: 20vw;
+    transition: .2s ease-in-out;
+}
+.catalog-title-map-content:hover {
+    box-shadow: 0 0 20px 10px rgba(0, 26, 255, 0.2);
+}
+
+
+.catalog-title-map-content-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.catalog-title-map-content-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.catalog-title-map-content img {
+    height: 15vh;
+}
+
+
+.catalog-title-map-content-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vh 2vw;
+    padding-top: 2vh;
+}
+.catalog-title-map-content-button button {
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    background-color: white;
+    width: 10vw;
+    height: 4vh;
+    border: 1px solid;
+}
+
+
+.sliding-button {
+    border-radius: 8px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-transform: uppercase;
+    overflow: hidden;
+    letter-spacing: 2px;
+    transition: .8s cubic-bezier(.165, .84, .44, 1);
+}
+.sliding-button:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 0;
+    width: 100%;
+    z-index: -1;
+    color: white;
+    background: linear-gradient(180deg, #0011ff, #004bd6, #1200af, #0003ce);
+    transition: .8s cubic-bezier(.165, .84, .44, 1);
+}
+.sliding-button:hover {
+    color: white;
+    background: rgba(255, 255, 255, 0);
+}
+.sliding-button:hover:before {
+    bottom: 0%;
+    top: auto;
+    height: 100%;
+}
+
+
+
+.modal-catalog-title {
+    margin: 0;
+    padding: 0;
+    max-width: 35vw;
+}
+.modal-fullname-img-text {
+    margin-left: 1vw;
+}
+.modal-fullname-img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 3vh;
+    margin: 2vh 2vw;
+}
+.modal-table-ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.modal-catalog-title h1 {
+    display: flex;
+    justify-content: center;
+}
+.modal-catalog-title img {
+    max-width: 15vw;
+    max-height: 22vh;
+}
+.modal-table {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    align-items: center;
+    height: 3vh;
+}
+.modal-table-image {
+    font-size: 125%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

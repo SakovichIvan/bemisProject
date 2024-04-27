@@ -1,0 +1,52 @@
+.contacts-prev h1 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.contacts-container {
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: 0vh 15vw;
+    margin-bottom: 5vh;
+    padding: 4vh 2vw;
+    border-radius: 10px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, .2);
+}
+
+.driving-directions {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-driving-directions img {
+    width: 30vw;
+    border-radius: 15px;
+    transition: all .2s ease-in-out;
+}
+.img-driving-directions img:hover {
+    box-shadow: 0 0 15px 10px rgba(0, 60, 255, 0.2);
+
+}
+.img-driving-directions button {
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+
+
+.driving-directions-text a {
+    text-decoration: none;
+}
+
+.driving-directions-text b {
+    font-weight: 500;
+}
+
+
+.contacts-phones-mails {
+    margin-top: 50px;
+}

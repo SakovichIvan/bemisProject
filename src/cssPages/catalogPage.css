@@ -1,0 +1,94 @@
+.catalog-main-page .catalog-h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.catalog-main-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5vh 5vw;
+}
+
+
+
+.catalog-container {
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vh;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, .2);
+    border-radius: 15px;
+    transition: all .1s ease-in-out;
+}
+.catalog-container:hover {
+    box-shadow: 15px 15px 20px rgba(0, 38, 255, 0.2);
+}
+
+
+
+.catalog-container .name-count {
+    margin-top: 1vh;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.catalog-container .logo-description {
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1vh 3vw;
+    margin-bottom: 2vh;
+    padding-top: 1vh;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.catalog-container .logo-description img {
+    height: 5vh;
+    margin-right: 1vw;
+}
+
+
+.catalog-name-button {
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: large;
+    text-decoration: underline;
+}
+
+
+.selected-catalog-name h1 {
+    display: flex;
+    justify-content: center;
+}
+.selected-catalog-buttons-container {
+    width: 70vw;
+    height: 25vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.selected-catalog .selected-catalog-button {
+    padding: 0;
+    cursor: pointer;
+    width: 30vw;
+    height: 20vh;
+    border-radius: 10px;
+    color: white;
+    transition: .2s linear;
+    background: rgba(0, 3, 179, 0.8);
+    font-size: 5vh;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, .2);
+}
+.selected-catalog .selected-catalog-button:hover {
+    box-shadow: 0 0 0 2px white, 0 0 0 4px #3C82F8;
+}

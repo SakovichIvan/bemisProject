@@ -1,0 +1,19 @@
+.price-list-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 200;
+    
+}
+
+.price-list-content {
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: 10vh 15vw;
+    padding: 20px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, .2);
+}
+
+.price-list-content b {
+    font-weight: 650;
+}
